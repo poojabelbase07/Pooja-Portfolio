@@ -1,0 +1,158 @@
+.card {
+  position: relative;
+  padding-left: 2.5rem;
+  padding-bottom: 3rem;
+  transition: all var(--transition-normal);
+}
+
+.card:hover {
+  transform: translateX(4px);
+}
+
+.card.withLine::before {
+  content: '';
+  position: absolute;
+  left: 0.625rem;
+  top: 1.5rem;
+  bottom: 0;
+  width: 2px;
+  background-color: var(--border-color);
+  transition: background-color var(--transition-normal);
+}
+
+.card:hover.withLine::before {
+  background-color: var(--accent-primary);
+}
+
+.marker {
+  position: absolute;
+  left: 0;
+  top: 0.5rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  background-color: var(--accent-primary);
+  border-radius: 50%;
+  border: 3px solid var(--bg-primary);
+  transition: all var(--transition-normal);
+  z-index: 1;
+}
+
+.card:hover .marker {
+  transform: scale(1.3);
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.2);
+}
+
+.content {
+  background-color: rgba(30, 41, 59, 0.3);
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--border-color);
+  transition: all var(--transition-normal);
+}
+
+.card:hover .content {
+  border-color: var(--accent-primary);
+  background-color: rgba(30, 41, 59, 0.5);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.1);
+}
+
+.period {
+  font-size: 0.85rem;
+  color: var(--text-tertiary);
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.25rem;
+}
+
+.companyWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.company {
+  color: var(--accent-primary);
+  font-weight: 500;
+  margin: 0;
+}
+
+.link {
+  color: var(--accent-primary);
+  opacity: 0.7;
+  transition: all var(--transition-fast);
+  display: flex;
+  align-items: center;
+}
+
+.link:hover {
+  opacity: 1;
+  transform: translateX(2px);
+}
+
+.descriptionList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+}
+
+.descriptionItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  color: var(--text-tertiary);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+}
+
+.descriptionItem:last-child {
+  margin-bottom: 0;
+}
+
+.bullet {
+  color: var(--accent-primary);
+  flex-shrink: 0;
+  margin-top: 0.15rem;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .card {
+    padding-left: 2rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .card.withLine::before {
+    left: 0.5rem;
+  }
+
+  .marker {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .content {
+    padding: 1.25rem;
+  }
+
+  .title {
+    font-size: 1.1rem;
+  }
+
+  .descriptionItem {
+    font-size: 0.85rem;
+  }
+}

@@ -1,0 +1,16 @@
+.app {
+  min-height: 100vh;
+  position: relative;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 8rem 2rem 4rem;
+}
+
+@media (max-width: 768px) {
+  .main {
+    padding: 6rem 1.5rem 3rem;
+  }
+}

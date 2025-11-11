@@ -1,0 +1,10 @@
+.timeline {
+  position: relative;
+  padding-left: 0;
+}
+
+@media (max-width: 768px) {
+  .timeline {
+    padding-left: 0;
+  }
+}
