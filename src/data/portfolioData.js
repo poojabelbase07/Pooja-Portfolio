@@ -87,20 +87,6 @@ export const blogPosts = [
     description: "Exploring different state management solutions including Context API, Redux, Zustand, and Jotai. Learn when to use each approach and their trade-offs.",
     link: "https://medium.com/@yourprofile/article-2",
     date: "Sep 22, 2024"
-  },
-  {
-    id: "blog3",
-    title: "TypeScript Best Practices for React Developers",
-    description: "Essential TypeScript patterns and practices that will make your React code more maintainable and type-safe. Includes real-world examples and common pitfalls.",
-    link: "https://medium.com/@yourprofile/article-3",
-    date: "Aug 10, 2024"
-  },
-  {
-    id: "blog4",
-    title: "Optimizing Web Performance in 2024",
-    description: "Latest techniques for optimizing web performance including lazy loading, code splitting, image optimization, and Core Web Vitals improvements.",
-    link: "https://medium.com/@yourprofile/article-4",
-    date: "Jul 5, 2024"
   }
 ];
 
