@@ -24,51 +24,26 @@ export const aboutMe = {
 export const experiences = [
   {
     id: "exp1",
-    period: "Jan 2024 - Present",
-    title: "Senior Software Engineer",
-    company: "Tech Company Inc.",
+    period: "Jan 2025 - June 2025",
+    title: "Mern Stack Internship",
+    company: "Paarsh Infotech",
     description: [
       "Developing scalable RESTful APIs using Node.js and Express, handling 10M+ requests daily",
       "Implemented CI/CD pipelines with GitHub Actions, reducing deployment time by 60%",
       "Mentored 5 junior developers and conducted weekly code review sessions",
       "Optimized database queries resulting in 40% performance improvement"
     ],
-    skills: ["React", "TypeScript", "Node.js", "AWS", "Docker", "MongoDB"],
+    skills: ["React", "Node.js", "Express", "AWS", "RESTful API", "MongoDB"],
     link: "https://company-website.com"
-  },
-  {
-    id: "exp2",
-    period: "Sep 2022 - Dec 2023",
-    title: "Full Stack Developer",
-    company: "Startup Solutions",
-    description: [
-      "Built microservices architecture handling real-time data processing",
-      "Developed responsive web applications using React and Redux",
-      "Integrated payment gateways and third-party APIs",
-      "Collaborated with design team to implement pixel-perfect UIs"
-    ],
-    skills: ["JavaScript", "Express", "PostgreSQL", "Redis", "Git"],
-    link: null
-  },
-  {
-    id: "exp3",
-    period: "Jan 2021 - Aug 2022",
-    title: "Frontend Developer",
-    company: "Digital Agency",
-    description: [
-      "Created interactive landing pages with conversion rates of 15%+",
-      "Implemented responsive designs across multiple devices",
-      "Optimized web performance achieving 95+ Lighthouse scores"
-    ],
-    skills: ["HTML", "CSS", "JavaScript", "React", "SCSS", "Webpack"]
   }
+
 ];
 
 export const projects = [
   {
     id: "proj1",
     period: "Jan 2024 - Present",
-    title: "E-Commerce Platform",
+    title: "Mentii - Mental Health Platform",
     description: "A full-stack e-commerce platform with real-time inventory management, payment integration, and admin dashboard. Features include cart management, order tracking, and analytics.",
     skills: ["React", "Node.js", "PostgreSQL", "Stripe", "Redux"],
     image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80",
@@ -78,7 +53,7 @@ export const projects = [
   {
     id: "proj2",
     period: "Aug 2023 - Dec 2023",
-    title: "Task Management App",
+    title: " Tekmiz - Learning Platform",
     description: "A collaborative task management application with real-time updates, team features, and calendar integration. Built with modern tech stack for optimal performance.",
     skills: ["TypeScript", "Next.js", "Prisma", "WebSocket", "Tailwind"],
     image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&q=80",
@@ -95,16 +70,7 @@ export const projects = [
     githubLink: "https://github.com/yourusername/project3",
     liveLink: null
   },
-  {
-    id: "proj4",
-    period: "Nov 2022 - Feb 2023",
-    title: "Weather Forecast App",
-    description: "Beautiful weather application with 7-day forecasts, interactive maps, and weather alerts. Features location-based detection and favorite locations.",
-    skills: ["React", "OpenWeather API", "Leaflet", "CSS3"],
-    image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=800&q=80",
-    githubLink: "https://github.com/yourusername/project4",
-    liveLink: "https://project4-demo.com"
-  }
+  
 ];
 
 export const blogPosts = [
