@@ -3,13 +3,13 @@
 // ============================================
 
 export const personalInfo = {
-  name: "Your Name",
+  name: "Pooja Belbase",
   tagline: "Building Software for Scale",
   description: "Passionate about creating intuitive and engaging user experiences. Specialize in transforming ideas into beautifully crafted products.",
-  resumeLink: "https://drive.google.com/your-resume-link",
-  email: "your.email@example.com",
-  linkedin: "https://linkedin.com/in/yourprofile",
-  github: "https://github.com/yourprofile",
+  resumeLink: "https://drive.google.com/file/d/1Sd5CGyMVlA_kVZhSLle06csTYm-Zq2nX/view?usp=sharing",
+  email: "mailpooja.belbase@gmail.com",
+  linkedin: "https://linkedin.com/in/poojabelbase07",
+  github: "https://github.com/poojabelbase07",
   twitter: "https://twitter.com/yourhandle"
 };
 
