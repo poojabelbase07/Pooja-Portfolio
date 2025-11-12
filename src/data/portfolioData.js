@@ -45,10 +45,10 @@ export const projects = [
     period: "Jan 2024 - Present",
     title: "Mentii - Mental Health Platform",
     description: "A full-stack e-commerce platform with real-time inventory management, payment integration, and admin dashboard. Features include cart management, order tracking, and analytics.",
-    skills: ["React", "Node.js", "PostgreSQL", "Stripe", "Redux"],
+    skills: ["ReactJS", "Firebase", "", "Stripe", "Redux"],
     image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80",
-    githubLink: "https://github.com/yourusername/project1",
-    liveLink: "https://project1-demo.com"
+    githubLink: "https://github.com/poojabelbase07/Mentii-Your-Mental-Health-Buddy",
+    liveLink: "https://mentii-your-mental-health-buddy-gilt.vercel.app/"
   },
   {
     id: "proj2",
@@ -57,8 +57,8 @@ export const projects = [
     description: "A collaborative task management application with real-time updates, team features, and calendar integration. Built with modern tech stack for optimal performance.",
     skills: ["TypeScript", "Next.js", "Prisma", "WebSocket", "Tailwind"],
     image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&q=80",
-    githubLink: "https://github.com/yourusername/project2",
-    liveLink: "https://project2-demo.com"
+    githubLink: "https://github.com/poojabelbase07/Tekmiz-E-learning-platform",
+    liveLink: "https://tekmiz-e-learning-platform.vercel.app/"
   },
   {
     id: "proj3",
